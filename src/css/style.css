@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 1px 10px #ffcc00;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+header h1 span {
+    color: #ffcc00; /* Cor amarela para o span */
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+header ul li {
+    margin: 0 10px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+header ul li a:hover {
+    text-decoration: underline;
+}
+header ul li img {
+    height: 30px; /* Altura fixa para o logo */
+}
+body{
+    background-color: #202020;
+}
+#main_content {
+    margin: 1px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 0px;
+    background-color: rgba(255, 204, 0, 0.7); /* Cor de fundo com transparência */
+    background-image: url(''); /* Substitua pelo caminho correto da sua imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+    background-position: top center; /* Centraliza a imagem no topo */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    /* Outros estilos opcionais para a sua div */
+    color: #fff; /* Cor do texto dentro da div */
+}
+
+#main_img {
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 1px 1px 10px #ffcc00;
+}
+#main_info{
+    width: 500px;
+    height: 250px;
+    color: aliceblue;
+}
+
+.glass-container {
+    background-color: rgba(255, 255, 255, 0.177); /* Cor de fundo com transparência */
+    border-radius: 10px; /* Borda arredondada para suavizar os cantos */
+    padding: 20px;
+    
+    margin: auto;
+    color: #fff; /* Cor do texto */
+    backdrop-filter: blur(10px); /* Desfoque do conteúdo por trás */
+    -webkit-backdrop-filter: blur(10px); /* Para compatibilidade com navegadores WebKit */
+    box-shadow: #ffcc00 1px 1px 10px;
+}
+.glass-container h2 {
+    font-size: 45px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+#genero{
+    font-size: 40px;
+    text-transform:capitalize;
+    color: #000000;
+    border-radius: 5px;
+    text-decoration: overline;
+}
+#older_Than{
+  
+    border-style:dashed #000000;
+    font-size: 30px;
+    text-transform:lowercase;
+    background-color: #000000;
+    color: #fff;
+    text-transform: uppercase;
+ 
+}
+#lançamento{
+    font-size: 20px;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+#streaming img{
+    width: 40px;
+}
+#description{
+    color: #000000;
+    font-size: 21px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:underline rgb(0, 0, 0);
+}
+.main_button{
+    padding: 75px;
+    margin: 0px;
+    border-radius: 10px;
+    transition: 1s;
+    background-color: #00000000;
+    border: 0;
+    color: #00000000;
+}
+.main_button:hover{
+    color: #fff;
+    box-shadow: #ffffff32 1px 1px 10px;
+    padding: 150px;
+    text-decoration: overline;
+    
+}
+.main_button:active{
+    transition: 0.1s;
+    color: #fff;
+    box-shadow: #ffffff32 1px 1px 10px;
+    padding: 1000px;
+    text-decoration: overline;   
+}
